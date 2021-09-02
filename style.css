@@ -62,7 +62,7 @@ header {
 }
 
 /* ポートフォリオ */
-.portfolio{
+.portfolio {
   background-color: #eceff1;
   padding: 90px 0px;
   display: flex;
@@ -172,8 +172,7 @@ header {
   display: flex;
 }
 
-.fas,
-.fab {
+.example {
   font-size: 60px;
 }
 
@@ -205,8 +204,6 @@ header {
 
 .profile-content {
   width: 1024px;
-  display: flex;
-  justify-content: center;
 }
 
 .profile-content h3 {
@@ -241,7 +238,7 @@ header {
   font-size: 20px;
 }
 
-.profile-text{
+.profile-text {
   text-align: left;
 }
 
@@ -253,4 +250,67 @@ header {
 .profile-skill h4 {
   padding-top: 20px;
   font-size: 20px;
+}
+
+/* コンタクト */
+.contact {
+  padding: 90px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-content {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-content h3 {
+  font-size: 32px;
+}
+
+.contact-detail {
+  display: flex;
+}
+
+.contact-image,
+.contact-icon {
+  width: 400px;
+  text-align: center;
+}
+
+.contact-image a {
+  color: black;
+}
+
+.c-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.tel {
+  padding-top: 20px;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.fa-twitter {
+  margin: 0px 20px;
+}
+
+/* フッター */
+.footer-logo {
+  height: 60px;
+  background-color: #ec715f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo p {
+  font-size: 16px;
+  color: white;
 }
