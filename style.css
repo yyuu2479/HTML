@@ -62,8 +62,7 @@ header {
 }
 
 /* ポートフォリオ */
-.portfolio,
-.profile {
+.portfolio{
   background-color: #eceff1;
   padding: 90px 0px;
   display: flex;
@@ -196,8 +195,18 @@ header {
 }
 
 /* プロフィール */
+.profile {
+  text-align: center;
+  background-color: #eceff1;
+  padding: 90px 0px;
+  display: flex;
+  justify-content: center;
+}
+
 .profile-content {
   width: 1024px;
+  display: flex;
+  justify-content: center;
 }
 
 .profile-content h3 {
@@ -218,6 +227,10 @@ header {
   width: 512px;
 }
 
+.profile-image {
+  text-align: center;
+}
+
 .profile-image img {
   height: 250px;
   width: 250px;
@@ -226,6 +239,10 @@ header {
 
 .profile-name h4 {
   font-size: 20px;
+}
+
+.profile-text{
+  text-align: left;
 }
 
 .profile-name p,
